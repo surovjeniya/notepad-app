@@ -1,0 +1,15 @@
+.field {
+  background-color: #e1dede;
+  color: #ababab;
+  border-radius: 6px;
+  border: none;
+  padding: 11px 20px;
+  font-size: var(--textM);
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    font-size: var(--textM);
+    color: #ababab;
+  }
+}

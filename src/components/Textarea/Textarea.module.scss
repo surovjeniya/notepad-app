@@ -1,0 +1,6 @@
+.textarea {
+  &::placeholder {
+    font-size: var(--textM);
+    color: #ababab;
+  }
+}

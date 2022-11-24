@@ -1,0 +1,18 @@
+@import "./styles/reset.scss";
+@import "react-redux-toastr/src/styles/index";
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: var(--textM);
+  color: var(--textColor);
+  font-weight: var(--textRegular);
+}
+
+:root {
+  --textXL: 50px;
+  --textM: 20px;
+  --textL: 30px;
+  --textColor: #000;
+  --textBold: 700;
+  --textRegular: 400;
+}

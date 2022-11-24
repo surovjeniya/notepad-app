@@ -1,0 +1,35 @@
+.button {
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 7px 25px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+.green {
+  background-color: #27ae60;
+  &:hover {
+    background-color: #108541;
+  }
+}
+.red {
+  background-color: #eb5757;
+  &:hover {
+    background-color: #b11717;
+  }
+}
+.blue {
+  background-color: #2f80ed;
+  &:hover {
+    background-color: #0f50a5;
+  }
+}
+.orange {
+  background-color: #f2994a;
+  &:hover {
+    background-color: #ad5d17;
+  }
+}

@@ -1,0 +1,58 @@
+.wrapper {
+  margin: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 25px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.h-1 {
+  margin-bottom: 30px;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.controls {
+  margin-bottom: 50px;
+}
+.notices {
+  width: 100%;
+}
+.message-field {
+  min-height: 250px;
+  background-color: #e1dede;
+  color: #ababab;
+  border-radius: 6px;
+  border: none;
+  padding: 11px 20px;
+  font-size: var(--textM);
+  resize: none;
+  &:focus {
+    outline: none;
+  }
+}
+.add {
+  font-size: var(--textM);
+  padding: 10px 40px;
+}
+.add-disabled {
+  background-color: gray;
+  &:hover {
+    background-color: gray;
+  }
+}
